@@ -5,19 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KARL PARTON LTD</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     
     <style>
-      body {
-          background-color: #FFF740;
+      /* 
+- - -
+External style sheets in use:
+- - -
+- base.css
+https://codepen.io/gymnasium/pen/eYpRxKE
+- focus.css
+https://codepen.io/gymnasium/pen/GRpMJzL
+*/
 
-      }
-      h1 {
-        font-family: 'Permanent Marker', sans-serif;
-        font-size: 5em;
-        text-align: center;
-      }
+/*
+Relative type sizes
+*/
+body {
+  background-color: #FFF740;
+  font-size: 100%;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+        
+  font-size: 2.5rem;
+  text-align: center;
+}
+@media (min-width: 40em) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1rem;
+}
+.drop {
+  font-size: 6rem;
+}
+footer {
+  font-size: 0.75rem;
+}
+
+
+
+/*
+
+Relative margins, padding, & widths
+
+*/
+.gallery,
+.article-body {
+  margin: 4rem 0;
+}
+footer {
+  padding: 3rem 1rem;
+}
+footer p {
+  max-width: 40rem;
+}
+
 
     </style>
     <link rel="icon" href="#" type="image/x-icon">
